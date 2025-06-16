@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yashashree Enterprises</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="YE Logo new.png" alt="Yashashree Logo" height="80">
+    <nav>
+      <a href="#dashboard">डॅशबोर्ड</a>
+      <a href="#courses">पाठक्रम</a>
+      <a href="#store">स्टोअर</a>
+      <a href="#downloads">डाउनलोड्स</a>
+      <a href="#admin">ऍडमिन</a>
+      <a href="#logout">लॉग आउट</a>
+    </nav>
+  </header>
+  <section id="login">
+    <h2>लॉगिन करा</h2>
+    <form id="loginForm">
+      <label>वापरकर्तानाव:</label>
+      <input type="text" id="username" required>
+      <label>पासवर्ड:</label>
+      <input type="password" id="password" required>
+      <button type="submit">साइन इन</button>
+    </form>
+  </section>
+  <section id="dashboard" style="display:none;">
+    <h2>स्वागत आहे, वापरकर्ता</h2>
+    <p>आपले ट्रेडिंग कोर्स आणि डिजिटल स्टोअर येथे पाहा.</p>
+  </section>
+  <section id="courses" style="display:none;">
+    <h2>📚 फॉरेक्स बेसिक कोर्स</h2>
+    <p><a href="downloads/forex-basics.pdf" download>Forex Basics PDF डाउनलोड करा</a></p>
+    <video controls src="downloads/forex-video.mp4">तुमचा ब्राउझर व्हिडिओ प्ले करू शकत नाही.</video>
+  </section>
+  <section id="store" style="display:none;">
+    <h2>🛍️ डिजिटल स्टोअर</h2>
+    <ul>
+      <li><a href="downloads/mt5setup.exe" download>MT5 Windows सेटअप</a></li>
+      <li><a href="downloads/Manual Hedging Bot – Pro Risk Balancer.zip" download>हेजिंग बॉट – ZIP डाउनलोड</a></li>
+      <li><a href="downloads/ai-tool.pdf" download>AI ट्रेडिंग पीडीएफ</a></li>
+    </ul>
+  </section>
+  <section id="downloads" style="display:none;">
+    <h2>डाउनलोड्स</h2>
+    <p>कोर्स, बॉट्स व PDF फायली.</p>
+  </section>
+  <section id="admin" style="display:none;">
+    <h2>🎛️ अॅडमिन पॅनल</h2>
+    <p>कोर्स अपडेट करा, नवीन फाईल अपलोड करा, स्टोअरमध्ये उत्पादन जोडा.</p>
+    <p>ही सुविधा पुढील JS किंवा Firebase द्वारे ऍक्टिव्ह होईल.</p>
+  </section>
+  <footer>
+    <h3>🔗 आमचे सोशल मीडिया</h3>
+    <div class="social-icons">
+      <a href="https://youtube.com/@yashashreeenterpises?si=mzETG4UtPqgcjQfP" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://t.me/YashashreeEnterprises" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://discord.gg/BKjAKuJhvT" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://www.instagram.com/yashashree_capital_digital" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/1E7HkMtiyp/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://one.exnesstrack.org/a/j4nqp00l0x" target="_blank"><i class="fas fa-chart-line"></i></a>
+      <a href="https://yashashree64.gumroad.com/l/bgfwb" target="_blank"><i class="fas fa-box"></i></a>
+      <a href="https://payhip.com/b/ihBRP" target="_blank"><i class="fas fa-store"></i></a>
+      <a href="https://rzp.io/rzp/EMLtyrs" target="_blank"><i class="fas fa-credit-card"></i></a>
+      <a href="mailto:yashashreeenterprises369@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2025 Yashashree Enterprises</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
